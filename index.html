@@ -1,0 +1,112 @@
+# Women-s-safety-portal
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SheSafe | Women's Safety Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1>SheSafe</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#tips">Safety Tips</a></li>
+        <li><a href="#contacts">Help</a></li>
+        <li><a href="#report">Report</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <h2>Your Safety Matters</h2>
+      <p>Information, awareness, and support for a safer community.</p>
+      <a class="emergency-button" href="#contacts">Get Help</a>
+    </section>
+
+    <section class="section">
+      <h2>About SheSafe</h2>
+      <p>
+        SheSafe is a women’s safety awareness portal. It provides practical
+        safety guidance, trusted-contact information, and an incident-reporting form.
+      </p>
+    </section>
+
+    <section id="tips" class="section light">
+      <h2>Safety Tips</h2>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Travel Safety</h3>
+          <p>Share your trip details with a trusted person and prefer well-lit public areas.</p>
+        </article>
+
+        <article class="card">
+          <h3>Online Safety</h3>
+          <p>Protect passwords, avoid sharing personal details publicly, and report harassment.</p>
+        </article>
+
+        <article class="card">
+          <h3>Emergency Readiness</h3>
+          <p>Keep emergency contacts easily available and seek immediate local help when needed.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacts" class="section">
+      <h2>Emergency and Trusted Contacts</h2>
+      <p class="notice">
+        For an actual emergency, contact your local emergency services immediately.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Police / Emergency</h3>
+          <p>Add the verified local emergency number here.</p>
+        </article>
+
+        <article class="card">
+          <h3>Women’s Support Helpline</h3>
+          <p>Add a verified national or local support number here.</p>
+        </article>
+
+        <article class="card">
+          <h3>Trusted Contact</h3>
+          <p>Name: __________</p>
+          <p>Phone: __________</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="report" class="section light">
+      <h2>Report an Incident</h2>
+      <p>For this project demo, the form checks input but does not save personal information.</p>
+
+      <form id="reportForm">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Your Email">
+        <select id="issue">
+          <option value="">Select incident type</option>
+          <option>Harassment</option>
+          <option>Online Abuse</option>
+          <option>Stalking</option>
+          <option>Other</option>
+        </select>
+        <textarea id="description" placeholder="Brief description"></textarea>
+        <button type="submit">Submit Report</button>
+        <p id="formMessage"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 SheSafe | Women’s Safety Portal College Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
